@@ -10,3 +10,4 @@ end
 
 collection = (1.100).to_a
 my_find(collection) do |i|
+  i% 3 == 0 
