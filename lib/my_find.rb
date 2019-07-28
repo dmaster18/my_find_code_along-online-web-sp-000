@@ -10,5 +10,5 @@ end
 
 collection = (1.100).to_a
 my_find(collection) do |i|
-  i % 3 == 0 and i%5 == 0
+  i % 3 == 0 and i % 5 == 0
 end
